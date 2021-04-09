@@ -15,28 +15,57 @@ namespace BookStore.Models
                     new Book
                     {
                         Id = 1,
-                        Name = "Design CAD",
-                        Desc = "CAD Designers use technology to help generate designs for complex projects.",
-                        UnitPrice = 89,
+                        Name = ".NET Charts",
+                        Desc = "Brings powerful charting capabilities to your .NET applications.",
+                        UnitPrice = 99,
                         Image = "1.png"
                     },
 
                     new Book
                     {
                         Id = 2,
-                        Name = "C#",
-                        Desc = "Designers xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.",
-                        UnitPrice = 77,
+                        Name = ".NET PayPal",
+                        Desc = "Integrate your .NET apps with PayPal the easy way!",
+                        UnitPrice = 69,
                         Image = "1.png"
                     },
+
                     new Book
                     {
                         Id = 3,
-                        Name = ".Net Core",
-                        Desc = "Designers xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.",
-                        UnitPrice = 66,
+                        Name = ".NET ML",
+                        Desc = "Supercharged .NET machine learning libraries.",
+                        UnitPrice = 299,
+                        Image = "1.png"
+                    },
+
+                    new Book
+                    {
+                        Id = 4,
+                        Name = ".NET Analytics",
+                        Desc = "Performs data mining and analytics easily in .NET.",
+                        UnitPrice = 299,
+                        Image = "1.png"
+                    },
+
+                    new Book
+                    {
+                        Id = 5,
+                        Name = ".NET Logger",
+                        Desc = "Logs and aggregates events easily in your .NET apps.",
+                        UnitPrice = 49,
+                        Image = "1.png"
+                    },
+
+                    new Book
+                    {
+                        Id = 6,
+                        Name = ".NET Numerics",
+                        Desc = "Powerful numerical methods for your .NET simulations. ",
+                        UnitPrice = 199,
                         Image = "1.png"
                     }
+
                 );
         }
     }
